@@ -1,0 +1,28 @@
+{
+  "author": "Bert Chan",
+  "copyright": "Copyright (c) 2018 Bert Chan",
+  "license": "MIT",
+  "license_text": "MIT License\n\nCopyright (c) 2018 Bert Chan\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+  "repository": "https://github.com/Chakazul/Lenia",
+  "commit": "adfc542939266de7f4bb7ebb552e8499701ee107",
+  "source_file": "Python/animals.json",
+  "source_url": "https://github.com/Chakazul/Lenia/blob/adfc542939266de7f4bb7ebb552e8499701ee107/Python/animals.json",
+  "source_sha256": "09cf0a831c1ef8a73ebfaa9126257fbe076108362b706a98d88650ca9848d206",
+  "pattern_code": "O2u",
+  "pattern_name": "Orbium unicaudatus",
+  "rule_note": "Catalog kn=1 and gn=1 map to polynomial kernel and polynomial growth in Python/LeniaND.py. Gaussian ring and Gaussian growth are adaptations requiring independent stability checks.",
+  "independent_validation": {
+    "grid": 128,
+    "boundary": "periodic",
+    "steps": 1000,
+    "precision": "Float64",
+    "polynomial_final_mass": 73.84452684794132,
+    "gaussian_ring_final_mass": 72.99053995803357,
+    "gaussian_ring_mean": 0.5,
+    "gaussian_ring_sigma": 0.15,
+    "gaussian_growth_mu": 0.15,
+    "gaussian_growth_sigma": 0.015,
+    "dt": 0.1,
+    "note": "Small finite run; does not imply indefinite stability or equivalence between polynomial and Gaussian rules."
+  }
+}

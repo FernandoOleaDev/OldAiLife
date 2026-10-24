@@ -1,0 +1,37 @@
+{
+  "name": "oldailife",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5174",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4173",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "format": "prettier --write src tests scripts",
+    "benchmark": "node --import tsx scripts/benchmark.ts",
+    "screenshots": "node --import tsx scripts/screenshots.ts"
+  },
+  "devDependencies": {
+    "@napi-rs/canvas": "^1.0.13",
+    "@types/node": "^24.0.0",
+    "prettier": "^3.9.10",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "vite": "^8.0.0"
+  },
+  "description": "A local artificial-life playground with 20 classic and modern simulations. Simple rules, unexpected worlds.",
+  "author": "Fernando Olea",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FernandoOleaDev/OldAiLife.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FernandoOleaDev/OldAiLife/issues"
+  },
+  "homepage": "https://github.com/FernandoOleaDev/OldAiLife#readme",
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

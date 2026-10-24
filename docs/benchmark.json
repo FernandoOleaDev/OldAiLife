@@ -1,0 +1,432 @@
+{
+  "date": "2026-10-24",
+  "runtime": "v26.4.0",
+  "note": "Motor en Node en este Mac; no representa los FPS del navegador.",
+  "results": [
+    {
+      "id": "langton",
+      "steps": 1000,
+      "initialTick": 11000,
+      "milliseconds": 0,
+      "stepsPerSecond": 7094312,
+      "metrics": [
+        {
+          "label": "Casillas activas",
+          "value": 952,
+          "color": "#c0e799"
+        },
+        {
+          "label": "Hormigas",
+          "value": 1,
+          "color": "#e6aa72"
+        }
+      ]
+    },
+    {
+      "id": "wator",
+      "steps": 1000,
+      "initialTick": 0,
+      "milliseconds": 809,
+      "stepsPerSecond": 1235,
+      "metrics": [
+        {
+          "label": "Peces",
+          "value": 7183,
+          "color": "#5dc6c7"
+        },
+        {
+          "label": "Tiburones",
+          "value": 674,
+          "color": "#ed916c"
+        },
+        {
+          "label": "Nacimientos",
+          "value": 622351,
+          "color": "#c0e799"
+        }
+      ]
+    },
+    {
+      "id": "ecosystem",
+      "steps": 1000,
+      "initialTick": 0,
+      "milliseconds": 71,
+      "stepsPerSecond": 14152,
+      "metrics": [
+        {
+          "label": "Ovejas",
+          "value": 274,
+          "color": "#e5e6bb"
+        },
+        {
+          "label": "Lobos",
+          "value": 112,
+          "color": "#f7a377"
+        },
+        {
+          "label": "Hierba",
+          "value": 1459,
+          "color": "#729466"
+        }
+      ]
+    },
+    {
+      "id": "life",
+      "steps": 1000,
+      "initialTick": 0,
+      "milliseconds": 1637,
+      "stepsPerSecond": 611,
+      "metrics": [
+        {
+          "label": "Células vivas",
+          "value": 762,
+          "color": "#c0e799"
+        },
+        {
+          "label": "Ocupación %",
+          "value": 4.7,
+          "color": "#69bec3"
+        }
+      ]
+    },
+    {
+      "id": "wolfram",
+      "steps": 1000,
+      "initialTick": 200,
+      "milliseconds": 4,
+      "stepsPerSecond": 249956,
+      "metrics": [
+        {
+          "label": "Celdas encendidas",
+          "value": 0,
+          "color": "#79c4cd"
+        },
+        {
+          "label": "Regla",
+          "value": 90,
+          "color": "#e6aa72"
+        }
+      ]
+    },
+    {
+      "id": "boids",
+      "steps": 1000,
+      "initialTick": 0,
+      "milliseconds": 812,
+      "stepsPerSecond": 1231,
+      "metrics": [
+        {
+          "label": "Individuos",
+          "value": 420,
+          "color": "#a5dbce"
+        },
+        {
+          "label": "Alineación %",
+          "value": 96,
+          "color": "#e3b674"
+        }
+      ]
+    },
+    {
+      "id": "ants",
+      "steps": 1000,
+      "initialTick": 0,
+      "milliseconds": 334,
+      "stepsPerSecond": 2998,
+      "metrics": [
+        {
+          "label": "Comida recogida",
+          "value": 2264,
+          "color": "#e3b674"
+        },
+        {
+          "label": "Comida disponible",
+          "value": 1032,
+          "color": "#a5d57a"
+        },
+        {
+          "label": "Hormigas",
+          "value": 250,
+          "color": "#a5dbce"
+        }
+      ]
+    },
+    {
+      "id": "reaction",
+      "steps": 1000,
+      "initialTick": 600,
+      "milliseconds": 593,
+      "stepsPerSecond": 1687,
+      "metrics": [
+        {
+          "label": "Masa B",
+          "value": 6863,
+          "color": "#c0d99d"
+        },
+        {
+          "label": "Área activa %",
+          "value": 62,
+          "color": "#79c4cd"
+        }
+      ]
+    },
+    {
+      "id": "particles",
+      "steps": 1000,
+      "initialTick": 0,
+      "milliseconds": 1394,
+      "stepsPerSecond": 717,
+      "metrics": [
+        {
+          "label": "Partículas",
+          "value": 650,
+          "color": "#a5dbce"
+        },
+        {
+          "label": "Velocidad media",
+          "value": 0.06,
+          "color": "#e3b674"
+        }
+      ]
+    },
+    {
+      "id": "lenia",
+      "steps": 1000,
+      "initialTick": 0,
+      "milliseconds": 841,
+      "stepsPerSecond": 1190,
+      "metrics": [
+        {
+          "label": "Masa",
+          "value": 73.84,
+          "color": "#a1d8d3"
+        },
+        {
+          "label": "Área viva",
+          "value": 191,
+          "color": "#d3e7bb"
+        }
+      ]
+    },
+    {
+      "id": "physarum",
+      "steps": 1000,
+      "initialTick": 60,
+      "milliseconds": 1720,
+      "stepsPerSecond": 582,
+      "metrics": [
+        {
+          "label": "Partículas",
+          "value": 2457,
+          "color": "#c7d5a1"
+        },
+        {
+          "label": "Rastro medio",
+          "value": 2.15,
+          "color": "#9fbda0"
+        },
+        {
+          "label": "Red · % de celdas",
+          "value": 22,
+          "color": "#d5ab69"
+        }
+      ]
+    },
+    {
+      "id": "brain",
+      "steps": 1000,
+      "initialTick": 0,
+      "milliseconds": 1531,
+      "stepsPerSecond": 653,
+      "metrics": [
+        {
+          "label": "Excitadas",
+          "value": 267,
+          "color": "#c4e0f2"
+        },
+        {
+          "label": "En reposo",
+          "value": 255,
+          "color": "#6584b6"
+        }
+      ]
+    },
+    {
+      "id": "cyclic",
+      "steps": 1000,
+      "initialTick": 80,
+      "milliseconds": 490,
+      "stepsPerSecond": 2039,
+      "metrics": [
+        {
+          "label": "Roca → tijera",
+          "value": 4099,
+          "color": "#d38770"
+        },
+        {
+          "label": "Tijera → papel",
+          "value": 4918,
+          "color": "#77b197"
+        },
+        {
+          "label": "Papel → roca",
+          "value": 5691,
+          "color": "#7d9ad5"
+        }
+      ]
+    },
+    {
+      "id": "forest",
+      "steps": 1000,
+      "initialTick": 0,
+      "milliseconds": 236,
+      "stepsPerSecond": 4230,
+      "metrics": [
+        {
+          "label": "Árboles",
+          "value": 8316,
+          "color": "#6eae70"
+        },
+        {
+          "label": "En llamas",
+          "value": 52,
+          "color": "#f3964c"
+        },
+        {
+          "label": "Quemados · acumulados",
+          "value": 79684,
+          "color": "#ac9075"
+        }
+      ]
+    },
+    {
+      "id": "sandpile",
+      "steps": 1000,
+      "initialTick": 0,
+      "milliseconds": 45,
+      "stepsPerSecond": 22417,
+      "metrics": [
+        {
+          "label": "Granos",
+          "value": 20000,
+          "color": "#bfa762"
+        },
+        {
+          "label": "Celdas inestables",
+          "value": 1809,
+          "color": "#eae2af"
+        },
+        {
+          "label": "Disipados",
+          "value": 0,
+          "color": "#b16c65"
+        }
+      ]
+    },
+    {
+      "id": "dla",
+      "steps": 1000,
+      "initialTick": 60,
+      "milliseconds": 26,
+      "stepsPerSecond": 38942,
+      "metrics": [
+        {
+          "label": "Partículas fijadas",
+          "value": 905,
+          "color": "#cbd1a3"
+        },
+        {
+          "label": "Radio",
+          "value": 58.1,
+          "color": "#7ab8c0"
+        }
+      ]
+    },
+    {
+      "id": "schelling",
+      "steps": 1000,
+      "initialTick": 0,
+      "milliseconds": 633,
+      "stepsPerSecond": 1579,
+      "metrics": [
+        {
+          "label": "Satisfechos · %",
+          "value": 100,
+          "color": "#d6a76f"
+        },
+        {
+          "label": "Mudanzas / paso",
+          "value": 0,
+          "color": "#87a6ce"
+        },
+        {
+          "label": "Insatisfechos",
+          "value": 0,
+          "color": "#caa7ac"
+        }
+      ]
+    },
+    {
+      "id": "wireworld",
+      "steps": 1000,
+      "initialTick": 0,
+      "milliseconds": 31,
+      "stepsPerSecond": 32342,
+      "metrics": [
+        {
+          "label": "Electrones",
+          "value": 16,
+          "color": "#89d4ed"
+        },
+        {
+          "label": "Circuito · celdas",
+          "value": 832,
+          "color": "#bf9546"
+        }
+      ]
+    },
+    {
+      "id": "fireflies",
+      "steps": 1000,
+      "initialTick": 0,
+      "milliseconds": 10,
+      "stepsPerSecond": 101465,
+      "metrics": [
+        {
+          "label": "Sincronía · %",
+          "value": 99.7,
+          "color": "#e2df9a"
+        },
+        {
+          "label": "Destellando",
+          "value": 0,
+          "color": "#aab97d"
+        }
+      ]
+    },
+    {
+      "id": "lsystem",
+      "steps": 1000,
+      "initialTick": 0,
+      "milliseconds": 0,
+      "stepsPerSecond": 12030075,
+      "metrics": [
+        {
+          "label": "Segmentos visibles",
+          "value": 1488,
+          "color": "#bdd59c"
+        },
+        {
+          "label": "Segmentos totales",
+          "value": 1488,
+          "color": "#789f80"
+        },
+        {
+          "label": "Generaciones",
+          "value": 5,
+          "color": "#cead87"
+        }
+      ]
+    }
+  ]
+}

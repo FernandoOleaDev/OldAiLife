@@ -1,0 +1,635 @@
+{
+  "generator": "npm run screenshots",
+  "renderer": "src/render.ts (application renderer), offscreen via @napi-rs/canvas",
+  "note": "Actual simulation states. Documentation captions are composed around the canvas; these images do not depict the full application UI. System font rasterization can differ across platforms.",
+  "records": [
+    {
+      "id": "langton",
+      "name": "Langton's Ant",
+      "file": "langton.png",
+      "seed": 1997,
+      "stepsAfterInitialization": 2000,
+      "tick": 13000,
+      "params": {
+        "size": 256,
+        "rule": "RL",
+        "ants": 1,
+        "topology": "plane",
+        "heading": 0,
+        "warmup": 11000
+      },
+      "metrics": [
+        {
+          "label": "Casillas activas",
+          "value": 1064,
+          "color": "#c0e799"
+        },
+        {
+          "label": "Hormigas",
+          "value": 1,
+          "color": "#e6aa72"
+        }
+      ],
+      "sha256": "df097f87f2c261500fed37721caaef9c2f046e08749b72e156fef21df7643732"
+    },
+    {
+      "id": "wator",
+      "name": "Wa-Tor",
+      "file": "wator.png",
+      "seed": 1997,
+      "stepsAfterInitialization": 80,
+      "tick": 80,
+      "params": {
+        "size": 128,
+        "fish": 2200,
+        "sharks": 220,
+        "fishBreed": 4,
+        "sharkBreed": 15,
+        "starve": 7
+      },
+      "metrics": [
+        {
+          "label": "Peces",
+          "value": 487,
+          "color": "#5dc6c7"
+        },
+        {
+          "label": "Tiburones",
+          "value": 166,
+          "color": "#ed916c"
+        },
+        {
+          "label": "Nacimientos",
+          "value": 59271,
+          "color": "#c0e799"
+        }
+      ],
+      "sha256": "da7b0681616a68a05b8a189310256533888b3eb66fce3c83a2100ea34e478a11"
+    },
+    {
+      "id": "ecosystem",
+      "name": "Wolves, Sheep & Grass",
+      "file": "ecosystem.png",
+      "seed": 1997,
+      "stepsAfterInitialization": 100,
+      "tick": 100,
+      "params": {
+        "size": 64,
+        "sheep": 350,
+        "wolves": 70,
+        "sheepFood": 4,
+        "wolfFood": 20,
+        "sheepBirth": 4,
+        "wolfBirth": 5,
+        "regrow": 30
+      },
+      "metrics": [
+        {
+          "label": "Ovejas",
+          "value": 257,
+          "color": "#e5e6bb"
+        },
+        {
+          "label": "Lobos",
+          "value": 105,
+          "color": "#f7a377"
+        },
+        {
+          "label": "Hierba",
+          "value": 1466,
+          "color": "#729466"
+        }
+      ],
+      "sha256": "b17c255d1811b563a464063ff4eaf3f394e5a070756119699e9580296dd4fc38"
+    },
+    {
+      "id": "life",
+      "name": "Conway's Game of Life",
+      "file": "life.png",
+      "seed": 1997,
+      "stepsAfterInitialization": 80,
+      "tick": 80,
+      "params": {
+        "size": 128,
+        "birth": "3",
+        "survive": "23",
+        "density": 0.25,
+        "pattern": "soup"
+      },
+      "metrics": [
+        {
+          "label": "Células vivas",
+          "value": 1781,
+          "color": "#c0e799"
+        },
+        {
+          "label": "Ocupación %",
+          "value": 10.9,
+          "color": "#69bec3"
+        }
+      ],
+      "sha256": "975cb78067d4cdd3a8d7e8ef896c85c1b44894c5660e72a2907e998692e1165c"
+    },
+    {
+      "id": "wolfram",
+      "name": "Elementary Cellular Automata",
+      "file": "wolfram.png",
+      "seed": 1997,
+      "stepsAfterInitialization": 0,
+      "tick": 200,
+      "params": {
+        "size": 256,
+        "rule": 90,
+        "pattern": "single",
+        "warmup": 200
+      },
+      "metrics": [
+        {
+          "label": "Celdas encendidas",
+          "value": 2187,
+          "color": "#79c4cd"
+        },
+        {
+          "label": "Regla",
+          "value": 90,
+          "color": "#e6aa72"
+        }
+      ],
+      "sha256": "ea829e915e50999927a3f523d515ba6a0b461e070175b1e56a1ad48cfe64ea28"
+    },
+    {
+      "id": "boids",
+      "name": "Boids",
+      "file": "boids.png",
+      "seed": 1997,
+      "stepsAfterInitialization": 120,
+      "tick": 120,
+      "params": {
+        "size": 512,
+        "count": 420,
+        "radius": 45,
+        "separation": 1.8,
+        "alignment": 1.2,
+        "cohesion": 1,
+        "speed": 2.5
+      },
+      "metrics": [
+        {
+          "label": "Individuos",
+          "value": 420,
+          "color": "#a5dbce"
+        },
+        {
+          "label": "Alineación %",
+          "value": 33,
+          "color": "#e3b674"
+        }
+      ],
+      "sha256": "e829333b63f5251b109646d31e95b909cf5484464e1c24ac2164ab3ecdeea511"
+    },
+    {
+      "id": "ants",
+      "name": "Ant Colony",
+      "file": "ants.png",
+      "seed": 1997,
+      "stepsAfterInitialization": 600,
+      "tick": 600,
+      "params": {
+        "size": 128,
+        "count": 250,
+        "evaporation": 0.015,
+        "diffusion": 0.25,
+        "deposit": 1,
+        "sensor": 5,
+        "wander": 0.65
+      },
+      "metrics": [
+        {
+          "label": "Comida recogida",
+          "value": 1272,
+          "color": "#e3b674"
+        },
+        {
+          "label": "Comida disponible",
+          "value": 2016,
+          "color": "#a5d57a"
+        },
+        {
+          "label": "Hormigas",
+          "value": 250,
+          "color": "#a5dbce"
+        }
+      ],
+      "sha256": "d5ba04566ff1b83c1baa31ad3996b362f8379e5c02ba2b21f8dcea63c51eec8a"
+    },
+    {
+      "id": "reaction",
+      "name": "Gray–Scott Reaction–Diffusion",
+      "file": "reaction.png",
+      "seed": 1997,
+      "stepsAfterInitialization": 800,
+      "tick": 1400,
+      "params": {
+        "size": 192,
+        "feed": 0.055,
+        "kill": 0.062,
+        "diffA": 1,
+        "diffB": 0.5,
+        "pattern": "spots",
+        "warmup": 600
+      },
+      "metrics": [
+        {
+          "label": "Masa B",
+          "value": 6648,
+          "color": "#c0d99d"
+        },
+        {
+          "label": "Área activa %",
+          "value": 60,
+          "color": "#79c4cd"
+        }
+      ],
+      "sha256": "b0775574e583e4b2faed81a2829531f4302bf0eef0bfaadd98125639a6d3e9c1"
+    },
+    {
+      "id": "particles",
+      "name": "Particle Life",
+      "file": "particles.png",
+      "seed": 1997,
+      "stepsAfterInitialization": 400,
+      "tick": 400,
+      "params": {
+        "size": 512,
+        "count": 650,
+        "types": 4,
+        "radius": 60,
+        "force": 12,
+        "friction": 2,
+        "pattern": "clusters"
+      },
+      "metrics": [
+        {
+          "label": "Partículas",
+          "value": 650,
+          "color": "#a5dbce"
+        },
+        {
+          "label": "Velocidad media",
+          "value": 0.21,
+          "color": "#e3b674"
+        }
+      ],
+      "sha256": "8eac7fda40efe75b7f6bf83173e126b505c99f520c81d2722521c80498423c08"
+    },
+    {
+      "id": "lenia",
+      "name": "Lenia",
+      "file": "lenia.png",
+      "seed": 1997,
+      "stepsAfterInitialization": 120,
+      "tick": 120,
+      "params": {
+        "size": 128,
+        "radius": 13,
+        "mu": 0.15,
+        "sigma": 0.015,
+        "dt": 0.1,
+        "kernel": "polynomial",
+        "pattern": "colony"
+      },
+      "metrics": [
+        {
+          "label": "Masa",
+          "value": 665.04,
+          "color": "#a1d8d3"
+        },
+        {
+          "label": "Área viva",
+          "value": 1665,
+          "color": "#d3e7bb"
+        }
+      ],
+      "sha256": "2b993a06d92d248f4dc913f2ef07f1809920f87e5bef0262c17924c760ae128c"
+    },
+    {
+      "id": "physarum",
+      "name": "Physarum Networks",
+      "file": "physarum.png",
+      "seed": 1997,
+      "stepsAfterInitialization": 300,
+      "tick": 360,
+      "params": {
+        "size": 128,
+        "density": 0.15,
+        "sensor": 9,
+        "sensorAngle": 22.5,
+        "rotation": 45,
+        "deposit": 5,
+        "decay": 0.1,
+        "pattern": "random",
+        "show": "no",
+        "warmup": 60
+      },
+      "metrics": [
+        {
+          "label": "Partículas",
+          "value": 2457,
+          "color": "#c7d5a1"
+        },
+        {
+          "label": "Rastro medio",
+          "value": 2.98,
+          "color": "#9fbda0"
+        },
+        {
+          "label": "Red · % de celdas",
+          "value": 30,
+          "color": "#d5ab69"
+        }
+      ],
+      "sha256": "5cda807569e328690cffe7ae03372338da97ea3dc04052e5f30f596732fd2174"
+    },
+    {
+      "id": "brain",
+      "name": "Brian's Brain",
+      "file": "brain.png",
+      "seed": 1997,
+      "stepsAfterInitialization": 120,
+      "tick": 120,
+      "params": {
+        "size": 128,
+        "density": 0.2,
+        "neighbors": 2,
+        "refractory": 1,
+        "pattern": "soup"
+      },
+      "metrics": [
+        {
+          "label": "Excitadas",
+          "value": 216,
+          "color": "#c4e0f2"
+        },
+        {
+          "label": "En reposo",
+          "value": 222,
+          "color": "#6584b6"
+        }
+      ],
+      "sha256": "ef93ed3795172753b8126618a454a24f8c70fb61d167f6cdef5bd15956bbb70c"
+    },
+    {
+      "id": "cyclic",
+      "name": "Rock–Paper–Scissors",
+      "file": "cyclic.png",
+      "seed": 1997,
+      "stepsAfterInitialization": 300,
+      "tick": 380,
+      "params": {
+        "size": 128,
+        "density": 0.9,
+        "selection": 1,
+        "reproduction": 1,
+        "mobility": 2,
+        "pattern": "random",
+        "warmup": 80
+      },
+      "metrics": [
+        {
+          "label": "Roca → tijera",
+          "value": 6547,
+          "color": "#d38770"
+        },
+        {
+          "label": "Tijera → papel",
+          "value": 5208,
+          "color": "#77b197"
+        },
+        {
+          "label": "Papel → roca",
+          "value": 2979,
+          "color": "#7d9ad5"
+        }
+      ],
+      "sha256": "d64933953b97498d465581f6d4c1f5d38e1095d89d6d0ff9e7ab1102ae9c4d52"
+    },
+    {
+      "id": "forest",
+      "name": "Forest Fire",
+      "file": "forest.png",
+      "seed": 1997,
+      "stepsAfterInitialization": 50,
+      "tick": 50,
+      "params": {
+        "size": 128,
+        "density": 0.64,
+        "growth": 0.008,
+        "lightning": 0.00005,
+        "ignition": "center"
+      },
+      "metrics": [
+        {
+          "label": "Árboles",
+          "value": 3648,
+          "color": "#6eae70"
+        },
+        {
+          "label": "En llamas",
+          "value": 270,
+          "color": "#f3964c"
+        },
+        {
+          "label": "Quemados · acumulados",
+          "value": 9610,
+          "color": "#ac9075"
+        }
+      ],
+      "sha256": "756bcd42f37a1e57d8da2afff9d89eee8474cdb0259c6ff86694066c3baa1022"
+    },
+    {
+      "id": "sandpile",
+      "name": "Abelian Sandpile",
+      "file": "sandpile.png",
+      "seed": 1997,
+      "stepsAfterInitialization": 1800,
+      "tick": 1800,
+      "params": {
+        "size": 128,
+        "pattern": "pile",
+        "initial": 20000,
+        "drive": 1,
+        "drop": "center",
+        "brushGrains": 100
+      },
+      "metrics": [
+        {
+          "label": "Granos",
+          "value": 20000,
+          "color": "#bfa762"
+        },
+        {
+          "label": "Celdas inestables",
+          "value": 1613,
+          "color": "#eae2af"
+        },
+        {
+          "label": "Disipados",
+          "value": 0,
+          "color": "#b16c65"
+        }
+      ],
+      "sha256": "ec8535b5b90e920cf9eaa077fab146c2ef8e3cbbeb452e5f3b8f06e3090aeec0"
+    },
+    {
+      "id": "dla",
+      "name": "Diffusion-Limited Aggregation",
+      "file": "dla.png",
+      "seed": 1997,
+      "stepsAfterInitialization": 0,
+      "tick": 60,
+      "params": {
+        "size": 128,
+        "walkers": 160,
+        "walk": 20,
+        "neighbors": 8,
+        "stickiness": 1,
+        "pattern": "seed",
+        "show": "no",
+        "warmup": 60
+      },
+      "metrics": [
+        {
+          "label": "Partículas fijadas",
+          "value": 548,
+          "color": "#cbd1a3"
+        },
+        {
+          "label": "Radio",
+          "value": 39.8,
+          "color": "#7ab8c0"
+        }
+      ],
+      "sha256": "8e9ec5bbdfbf0d73cbfaa6de045165759b905c7836cbf4658dd447f33161bcca"
+    },
+    {
+      "id": "schelling",
+      "name": "Schelling Segregation",
+      "file": "schelling.png",
+      "seed": 1997,
+      "stepsAfterInitialization": 80,
+      "tick": 80,
+      "params": {
+        "size": 64,
+        "density": 0.85,
+        "balance": 0.5,
+        "similarity": 0.4
+      },
+      "metrics": [
+        {
+          "label": "Satisfechos · %",
+          "value": 100,
+          "color": "#d6a76f"
+        },
+        {
+          "label": "Mudanzas / paso",
+          "value": 0,
+          "color": "#87a6ce"
+        },
+        {
+          "label": "Insatisfechos",
+          "value": 0,
+          "color": "#caa7ac"
+        }
+      ],
+      "sha256": "7ba2b1616a3c1399bbac166b8a5993d5931d8271bc1251fd6431fe4584df6cf6"
+    },
+    {
+      "id": "wireworld",
+      "name": "Wireworld",
+      "file": "wireworld.png",
+      "seed": 1997,
+      "stepsAfterInitialization": 12,
+      "tick": 12,
+      "params": {
+        "size": 128,
+        "pattern": "loops"
+      },
+      "metrics": [
+        {
+          "label": "Electrones",
+          "value": 16,
+          "color": "#89d4ed"
+        },
+        {
+          "label": "Circuito · celdas",
+          "value": 832,
+          "color": "#bf9546"
+        }
+      ],
+      "sha256": "227b048e03c23d72c6671b3a9d6dcbd04dc73a837dd7f3864d670898849ead78"
+    },
+    {
+      "id": "fireflies",
+      "name": "Kuramoto Fireflies",
+      "file": "fireflies.png",
+      "seed": 1997,
+      "stepsAfterInitialization": 35,
+      "tick": 35,
+      "params": {
+        "size": 128,
+        "count": 240,
+        "spread": 0.2,
+        "coupling": 1.5,
+        "dt": 0.04
+      },
+      "metrics": [
+        {
+          "label": "Sincronía · %",
+          "value": 6.6,
+          "color": "#e2df9a"
+        },
+        {
+          "label": "Destellando",
+          "value": 29,
+          "color": "#aab97d"
+        }
+      ],
+      "sha256": "df3281d460e1ca9555fdee1cc0a6486d40bf986e0a67cb6e1dcaadefd661237f"
+    },
+    {
+      "id": "lsystem",
+      "name": "L-System Garden",
+      "file": "lsystem.png",
+      "seed": 1997,
+      "stepsAfterInitialization": 160,
+      "tick": 160,
+      "params": {
+        "size": 256,
+        "axiom": "X",
+        "ruleF": "FF",
+        "ruleX": "F-[[X]+X]+F[+FX]-X",
+        "angle": 22.5,
+        "generations": 5,
+        "growth": 12
+      },
+      "metrics": [
+        {
+          "label": "Segmentos visibles",
+          "value": 1488,
+          "color": "#bdd59c"
+        },
+        {
+          "label": "Segmentos totales",
+          "value": 1488,
+          "color": "#789f80"
+        },
+        {
+          "label": "Generaciones",
+          "value": 5,
+          "color": "#cead87"
+        }
+      ],
+      "sha256": "8e68685edc8e766f6e02c9a3fc2e9a04fcd2866218ed33a80a6782adc05a0cf6"
+    }
+  ]
+}
